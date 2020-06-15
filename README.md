@@ -1,2 +1,2 @@
 # Smart Methods
-Summer training
+Ai in robotics
