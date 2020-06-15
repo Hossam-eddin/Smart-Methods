@@ -1,0 +1,2 @@
+# SmartMethodsJourney
+Summer training
