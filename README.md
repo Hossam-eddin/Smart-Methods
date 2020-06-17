@@ -1,2 +1,2 @@
 # Smart Methods
-Ai in robotics
+Robotics AI
