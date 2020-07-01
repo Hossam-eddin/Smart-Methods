@@ -15,7 +15,7 @@ img = cv2.imread('test.jpg')
 # Convert into grayscale >>> as the detection works only on grayscale images, So it is important to convert the image's color into grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-# Detect faces  >>> 'gray' is your input image, '1.1' is the 'scaleFactor', while '4' is the 'minNeighbours' >>> you will need to change those values to get detection.
+# Detect faces  >>> 'gray' is your input image, '1.1' is the 'scaleFactor', while '4' is the 'MinNeighbours' >>> you will need to change those values to get detection.
 faces = face_cascade.detectMultiScale(gray, 1.1, 4)
 
 # Drawing a rectangle around the face
