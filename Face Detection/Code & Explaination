@@ -1,0 +1,39 @@
+In this section I will write down #Explaination followed by the code below it:
+p.s: This code should be written in the python file that you create with the file extention: 'name'.py
+
+
+
+#Starting with importing opencv
+import cv2
+
+# Loading the cascade file
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+
+# Read the input image >>> if your image's name is 'test'
+img = cv2.imread('test.jpg')
+
+# Convert into grayscale >>> as the detection works only on grayscale images, So it is important to convert the image's color into grayscale
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+# Detect faces  >>> 'gray' is your input image, '1.1' is the 'scaleFactor', while '4' is the 'minNeighbours' >>> you will need to change those values to get detection.
+faces = face_cascade.detectMultiScale(gray, 1.1, 4)
+
+# Drawing a rectangle around the face
+for (x, y, w, h) in faces:
+    cv2.rectangle(img, (x, y), (x+w, y+h), (255, 0, 0), 2)
+    
+# Displaying the output
+cv2.imshow('img', img)
+cv2.waitKey()
+
+
+
+Additional info:
+>>ScaleFactor is a parameter specifying how much the image size is reduced at each image scale.
+  Suppose, the scale factor is 1.03, it means we're using a small step for resizing,
+  i.e. reduce size by 3 %, we increase the chance of a matching size with the model for detection.
+
+>>MinNeighbors is a parameter specifying how many neighbors each candidate rectangle should have to retain it. 
+  This parameter will affect the quality of the detected faces: higher value results in less detections but with higher quality.
+  
+  In the code I kept changing both those scales until I got the right detection.
