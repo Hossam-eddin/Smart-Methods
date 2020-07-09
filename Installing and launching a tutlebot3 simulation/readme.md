@@ -1,6 +1,6 @@
 ## Installing and running a TurtleBot3 simulator
 
-### 1. Install the dependent packages, start from your catkin_ws/src folder:
+### 1. Install the dependent packages, starting from your catkin_ws/src folder:
 ``` cd ~/catkin_ws/src/ ``` 
 
  ``` git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git ``` 
