@@ -4,4 +4,4 @@ Tutorial about:
 2 nodes sharing a string message in a custom package
 (Explanation below pictures)
 
-Two python files adn steps pdf included
+Two python files and a steps.pdf included
