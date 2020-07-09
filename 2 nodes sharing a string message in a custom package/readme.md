@@ -7,7 +7,7 @@ Tutorial about:
 Two python files and a steps.pdf included
 
 
-A node is an executable that uses ROS to communicate with other nodes. 
+Node: is an executable that uses ROS to communicate with other nodes. 
 
 Messages: ROS data type used when subscribing or publishing to a topic. 
 
