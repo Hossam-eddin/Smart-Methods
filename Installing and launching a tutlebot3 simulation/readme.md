@@ -32,7 +32,7 @@ Save and quit the file.
 
 ### 3. Launch the virtual robot using Gazebo
 
-#### First,launch TurtleBot3 in an empty environment by : 
+#### First, launch TurtleBot3 in an empty environment by : 
 ` source devel/setup.bash `
 
 ``` roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch ```
@@ -44,7 +44,7 @@ Save and quit the file.
 ![](images/result.PNG)
 
  ### 4. To control the movement of your TurtleBot:
- In a new terminal tap: 
+ #### In a new terminal tap: 
  
 ` source devel/setup.bash `
  
