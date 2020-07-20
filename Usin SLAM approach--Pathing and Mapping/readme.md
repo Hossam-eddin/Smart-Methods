@@ -30,5 +30,5 @@ sudo apt-get install ros-melodic-map-server
 ```
 ![](Mapping/5.PNG)
 
-### now go back to run the command again and you should have the map saved in your HOME files directory:
+### now go back to run the command again and you should have the map saved in your HOME files directory in PGM and yaml Estentions:
 ![](Mapping/6.PNG)
