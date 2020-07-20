@@ -21,7 +21,7 @@ git clone https://github.com/ros-perception/openslam_gmapping.git
 
 ### Start with running Gazebo World, providing your bot model (in my case: it is burger):
 ```ruby
-source deve;/setup.bash
+source devel/setup.bash
 ```
 (Used whenever you open a new terminal).
 ```ruby
