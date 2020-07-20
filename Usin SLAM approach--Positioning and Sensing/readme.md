@@ -30,7 +30,7 @@ export TURTLEBOT3_MODEL=burger
 ```ruby
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
-![](images/)
+![](Positioning & Sensing/1.PNG)
 
 ### Now open a new terminal and export the robot model and run the SLAM node in RViz.
 ```ruby
@@ -54,5 +54,5 @@ export TURTLEBOT3_MODEL=burger
 ```ruby
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
-### Now you got both the positoning and sensing ready with your turtlebot3
+### Now you got both the positoning and sensing steps ready with your turtlebot3 simulation
 
