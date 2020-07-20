@@ -6,6 +6,7 @@ By now you should have the following packages installed into your workspace/src 
 3. turtlebot3_simulations
 4. slam_gmapping
 5. openslam_gmapping
+
 as you should be already done with the positioning and sensing steps, youm should have 3 opened terminal windows by now:
 1. The Gazebo World window.
 2. The SLAM node Rviz window.
