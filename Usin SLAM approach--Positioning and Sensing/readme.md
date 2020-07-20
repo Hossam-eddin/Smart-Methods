@@ -31,7 +31,7 @@ export TURTLEBOT3_MODEL=burger
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
-![](Positioning & Sensing/1.PNG)
+![](Positioning/1.PNG)
 
 ### Now open a new terminal and export the robot model and run the SLAM node in RViz.
 ```ruby
@@ -43,7 +43,7 @@ export TURTLEBOT3_MODEL=burger
 ```ruby
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
-![](images/)
+![](Positioning/2.PNG)
 
 ### For positioning, in order to control a TurtleBot3 with a keyboard. In a new terminal:
 ```ruby
@@ -55,5 +55,6 @@ export TURTLEBOT3_MODEL=burger
 ```ruby
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
+![](Positioning/3.PNG)
 ### Now you got both the positoning and sensing steps ready with your turtlebot3 simulation
 
